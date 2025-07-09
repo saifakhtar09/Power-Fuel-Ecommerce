@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /checkout/
+Disallow: /account/
+Disallow: /_next/
+Disallow: /static/
+
+# Allow important pages
+Allow: /products/
+Allow: /categories/
+Allow: /brands/
+Allow: /about/
+Allow: /contact/
+Allow: /reviews/
+
+# Crawl delay (optional)
+Crawl-delay: 1
